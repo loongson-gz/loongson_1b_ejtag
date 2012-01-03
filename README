@@ -1,1 +1,10 @@
-使用方法：请参考 loongson_1b_doc 下的 龙芯 ejtag与pmon 使用手册
+此ejtag 适用于 16bit 的SDRAM
+
+使用方法：
+# tar xf bioscfg-1B2+16bit-2011-11-17.tgz
+# cd bioscfg-1B2+16bit-2011-11-17
+# ./ejtag_debug_usb	//需在 root 用户下执行
+-h	//查看帮助
+
+
+详细请参考 loongson_1b_doc 下的 龙芯 ejtag与pmon 使用手册
